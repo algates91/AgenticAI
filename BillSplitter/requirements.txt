@@ -1,0 +1,9 @@
+langchain
+langgraph
+langchain-google-genai
+twilio
+python-dotenv
+pypdf
+pillow
+pandas
+splitwise
