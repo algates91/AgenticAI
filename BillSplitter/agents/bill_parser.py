@@ -23,6 +23,7 @@ class BillData(BaseModel):
     total_amount: float = Field(description="Total amount of the bill")
     period_start: str = Field(description="Billing period start date")
     period_end: str = Field(description="Billing period end date")
+    usage_period: str = Field(description="Usage period")
     shared_costs: List[LineItem] = Field(description="Shared costs not specific to a user (e.g., account level taxes, base plan)")
     user_charges: List[UserCharge] = Field(description="Charges broken down by user/line")
 
